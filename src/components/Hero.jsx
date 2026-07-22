@@ -42,7 +42,7 @@ export default function Hero() {
           className="inline-block mb-6"
         >
           <span className="px-4 py-2 rounded-full border border-primary/30 bg-primary/10 text-primary-light text-sm font-medium">
-            Computer Science Student
+            BICT Undergraduate | Graphic Designer | Digital Marketer | Web Developer
           </span>
         </motion.div>
 
