@@ -62,10 +62,11 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
-          className="text-lg md:text-xl text-text-secondary mb-10 max-w-2xl mx-auto leading-relaxed"
+          className=" text-text-secondary mb-10 mx-auto leading-relaxed"
         >
-          A passionate developer crafting innovative solutions through code.
-          I love building things that make a difference.
+          An undergraduate student at the University of Kelaniya, currently pursuing a Bachelor of Information and Communication Technology. I am passionate about both technology and creativity, with a strong interest in programming, networking, digital marketing, and graphic design.<br/><br/>
+Alongside my academic studies, I have gained industry experience in digital marketing and design, which helped me develop practical skills in real-world environments. I enjoy combining technical knowledge with creative thinking to produce effective solutions.<br/><br/>
+My goal is to become a skilled IT professional who can contribute to innovative digital solutions and continuously grow in the technology field.
         </motion.p>
 
         <motion.div
