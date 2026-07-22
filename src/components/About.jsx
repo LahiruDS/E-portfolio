@@ -57,14 +57,12 @@ export default function About() {
           <FadeInWhenVisible delay={0.4}>
             <div className="space-y-6">
               <p className="text-text-secondary leading-relaxed">
-                I'm a Computer Science undergraduate with a passion for software development
-                and problem-solving. I enjoy working with modern technologies and am always
-                eager to learn new skills.
+                I have developed a combination of technical and creative skills through my academic studies and industry experience.<br/><br/>
+I have basic knowledge of programming using the C language and experience in applying structured programming concepts to solve problems. I am also familiar with networking concepts such as IP addressing, subnetting, and network configuration using Cisco Packet Tracer.
               </p>
               <p className="text-text-secondary leading-relaxed">
-                My journey in tech started with curiosity about how things work, and it has
-                evolved into a deep love for creating elegant solutions to complex problems.
-                I'm particularly interested in web development, AI, and open-source projects.
+               Additionally, I have gained experience in UI/UX design and system prototyping through academic projects such as the Lanka Land Rent system.<br/><br/>
+Through my industry experience, I have also developed skills in graphic design, branding, and digital marketing, allowing me to create visually appealing and effective digital content.
               </p>
 
               <div className="grid grid-cols-2 gap-4 pt-4">
