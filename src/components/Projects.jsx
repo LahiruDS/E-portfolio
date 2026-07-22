@@ -4,11 +4,23 @@ import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa'
 
 const projects = [
   {
-    title: 'E-Learning Platform',
-    description: 'A full-stack e-learning platform with course management, quizzes, and progress tracking. Built with React, Node.js, and MongoDB.',
-    tags: ['React', 'Node.js', 'MongoDB', 'Express'],
+    title: 'Project 01 - Lanka Land Rent (LLR) – AI-Assisted Land Rental Platform',
+
+    image: "/images/LLR.png",
+
+    description: `Lanka Land Rent (LLR) is a concept-driven web prototype...`,
+
+    tags: [
+      'MagicPatterns',
+      'UI/UX Design Principles',
+      'System Design Concepts',
+      'Front-end Prototyping'
+    ],
+
     github: 'https://github.com',
-    live: 'https://example.com',
+
+    live: 'https://project-land-rental-platform-with-ai-consultation-370.magicpatterns.app/',
+
     color: 'from-purple-500/20 to-blue-500/20',
   },
   {
@@ -66,12 +78,15 @@ function ProjectCard({ project, index }) {
       whileHover={{ y: -8 }}
       className="group rounded-2xl bg-surface-light border border-surface-lighter/50 overflow-hidden hover:border-primary/30 transition-all duration-300 hover:shadow-xl hover:shadow-primary/5"
     >
-      <div className={`h-48 bg-gradient-to-br ${project.color} flex items-center justify-center relative overflow-hidden`}>
-        <div className="absolute inset-0 bg-surface-light/40" />
-        <span className="text-4xl font-bold text-text-primary/10 group-hover:text-text-primary/20 transition-colors relative z-10">
-          {String(index + 1).padStart(2, '0')}
-        </span>
-      </div>
+<div className="h-56 overflow-hidden relative">
+  <img
+    src={project.image}
+    alt={project.title}
+    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+  />
+
+  <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-all duration-300"></div>
+</div>
 
       <div className="p-6">
         <h3 className="text-lg font-semibold text-text-primary mb-2 group-hover:text-primary-light transition-colors">
