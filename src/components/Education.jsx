@@ -4,40 +4,35 @@ import { HiAcademicCap, HiCalendar } from 'react-icons/hi'
 
 const education = [
   {
-    degree: 'BSc (Hons) Computer Science',
-    school: 'University of Colombo School of Computing',
-    period: '2022 - Present',
-    description: 'Specializing in Software Engineering and Data Science. Coursework includes Data Structures, Algorithms, Database Systems, AI, and Web Technologies.',
-    highlights: ['Dean\'s List', 'GPA: 3.5+', 'ACM Student Member'],
+    degree: 'BICT (Hons) Information & Communication Technology',
+    school: 'Faculty of Computing and Technology, University of Kelaniya',
+    period: '2024 - Present',
+    description: 'Specializing in Software Pathway. Coursework includes Data Structures, Algorithms, Database Systems, AI, and Web Technologies.',
+    highlights: ['Dean\'s List', 'GPA: __', 'ITSA Student Member', 'FOSS Club Member'],
   },
   {
     degree: 'G.C.E. Advanced Level',
-    school: 'Royal College, Colombo',
-    period: '2019 - 2021',
-    description: 'Physical Science stream with Mathematics, Physics, and Chemistry. Achieved 3 A passes.',
-    highlights: ['3A Passes', 'Z-Score: 2.5+', 'Science Society President'],
+    school: 'Central College, Matara',
+    period: '2022 - 2023',
+    description: 'Engineering Technology stream with Engineering Technology, Science for Technology, and Information Technology. Achieved 1 A & 2 B passes.',
+    highlights: ['1 A & 2 B Passes', 'Z-Score: 1.98+', 'Disctrict Rank: 30', 'Island Rank: 409'],
   },
 ]
 
 const timeline = [
   {
-    title: 'Web Development Intern',
-    company: 'TechCorp Solutions',
-    period: '2024 Summer',
-    description: 'Developed and maintained web applications using React and Node.js. Collaborated with senior developers on enterprise projects.',
+    title: 'Digital Marketing Intern & Graphic Designer',
+    company: 'RV Fashion (Pvt) Ltd',
+    period: '2023 Summer',
+    description: 'Worked as a Digital Marketing Intern and Graphic Designer, creating social media content, promotional materials, and assisting in marketing campaigns. Gained experience in digital marketing strategies and graphic design tools.',
   },
   {
-    title: 'Freelance Developer',
+    title: 'Freelance Graphic Designer',
     company: 'Self-Employed',
     period: '2023 - Present',
-    description: 'Building websites and applications for local businesses. Managed client relationships and delivered projects on time.',
+    description: 'Worked as a freelance graphic designer, creating logos, social media graphics, and promotional materials for various clients. Developed skills in client communication, project management, and design software.',
   },
-  {
-    title: 'Open Source Contributor',
-    company: 'Various Projects',
-    period: '2023 - Present',
-    description: 'Contributing to open source projects. Fixed bugs, added features, and helped with documentation.',
-  },
+
 ]
 
 function TimelineItem({ item, index, type }) {

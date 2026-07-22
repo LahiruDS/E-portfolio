@@ -24,45 +24,42 @@ const projects = [
     color: 'from-purple-500/20 to-blue-500/20',
   },
   {
-    title: 'AI Chatbot',
-    description: 'An intelligent chatbot using NLP for customer support. Features sentiment analysis and multi-language support.',
-    tags: ['Python', 'TensorFlow', 'Flask', 'NLP'],
+    title: 'Project 02 - Dynamic IP Address Assignment using DHCP',
+    image: '/images/PKT.jpg',
+    description: 'In this project, I configured a DHCP server to automatically assign IP addresses to multiple PCs in a network. Devices were connected to a switch, and DHCP settings were configured to distribute IP addresses dynamically. This eliminated the need for manual IP configuration and improved network efficiency.',
+    tags: ['Cisco Packet Tracer', 'DHCP Protocol', 'Networking Concepts'],
     github: 'https://github.com',
     live: 'https://example.com',
     color: 'from-cyan-500/20 to-green-500/20',
   },
-  {
-    title: 'Weather Dashboard',
-    description: 'Real-time weather dashboard with interactive maps, forecasts, and location-based alerts using OpenWeather API.',
-    tags: ['React', 'TypeScript', 'REST API', 'Tailwind'],
-    github: 'https://github.com',
-    live: 'https://example.com',
-    color: 'from-orange-500/20 to-red-500/20',
-  },
-  {
-    title: 'Task Manager App',
-    description: 'A collaborative task management application with real-time updates, drag-and-drop, and team workspaces.',
-    tags: ['React', 'Firebase', 'Material UI', 'Redux'],
-    github: 'https://github.com',
-    live: 'https://example.com',
-    color: 'from-green-500/20 to-teal-500/20',
-  },
-  {
-    title: 'Portfolio Generator',
-    description: 'A CLI tool that generates beautiful portfolio websites from a JSON config. Supports multiple themes and layouts.',
-    tags: ['Node.js', 'CLI', 'Handlebars', 'CSS'],
-    github: 'https://github.com',
-    live: 'https://example.com',
-    color: 'from-pink-500/20 to-purple-500/20',
-  },
-  {
-    title: 'Expense Tracker',
-    description: 'Personal finance tracker with charts, budgeting tools, and export features. Built with modern React patterns.',
-    tags: ['React', 'Chart.js', 'Context API', 'LocalStorage'],
-    github: 'https://github.com',
-    live: 'https://example.com',
-    color: 'from-blue-500/20 to-indigo-500/20',
-  },
+
+{
+  title: 'Project 03 - BuildMe.lk – Smart Construction Platform',
+
+  image: '/images/BuildMe.png',
+
+  description: `BuildMe.lk is a comprehensive smart construction platform designed to digitally connect everyone involved in the construction industry through a single online marketplace.
+
+The platform enables customers to find trusted construction professionals, hardware suppliers, architects, engineers, contractors, and other service providers while allowing verified businesses to showcase and manage their services online. It aims to simplify the construction process by providing a centralized solution for discovering services, comparing options, and managing construction-related needs.
+
+Our team developed the backend using Django and Python with PostgreSQL as the database, focusing on scalability, security, and efficient data management.`,
+
+  tags: [
+    'Django',
+    'Python',
+    'PostgreSQL',
+    'REST API',
+    'React',
+    'Tailwind CSS'
+  ],
+
+  github: 'https://github.com/YOUR_USERNAME/BuildMe.lk',
+
+  live: '#',
+
+  color: 'from-amber-500/20 to-orange-500/20',
+},
+
 ]
 
 function ProjectCard({ project, index }) {
