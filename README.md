@@ -1,16 +1,76 @@
-# React + Vite
+# 💼 Lahiru De Silva - Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern and responsive personal portfolio website built to showcase my skills, projects, education, and experience as a BICT undergraduate at the University of Kelaniya.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+https://e-portfolio-gamma-sand.vercel.app/
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the Oxlint configuration
+- Responsive modern UI
+- Smooth animations with Framer Motion
+- About Me section
+- Technical Skills
+- Featured Projects
+- Leadership & Activities
+- Education
+- Contact Form (EmailJS)
+- Social Media Links
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+---
+
+## 🛠️ Technologies Used
+
+- React.js
+- Vite
+- Tailwind CSS
+- Framer Motion
+- EmailJS
+- React Icons
+
+---
+
+## 📂 Featured Projects
+
+### 🏗️ BuildMe.lk
+Smart Construction Platform that connects customers, contractors, engineers, architects, and hardware suppliers through a single digital platform.
+
+**Tech Stack**
+- Django
+- Python
+- PostgreSQL
+- React
+- Tailwind CSS
+
+---
+
+### 🌍 Lanka Land Rent (LLR)
+
+AI-assisted land rental platform designed to simplify land searching, consultation, and rental management.
+
+**Tech Stack**
+- MagicPatterns
+- UI/UX Design
+- Front-end Prototyping
+
+---
+
+## 📧 Contact
+
+Email:
+**lahiruddesilva2022@gmail.com**
+
+LinkedIn:
+https://www.linkedin.com/in/lahiru-de-silva-86b0b1329/
+
+GitHub:
+https://github.com/LahiruDS
+
+---
+
+## 📄 License
+
+This project is developed for educational and personal portfolio purposes.
