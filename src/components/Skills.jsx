@@ -10,7 +10,6 @@ import {
 
 const skills = [
   { name: 'React', icon: FaReact, color: '#61DAFB', level: 85 },
-  { name: 'Node.js', icon: FaNodeJs, color: '#339933', level: 75 },
   { name: 'Python', icon: FaPython, color: '#3776AB', level: 90 },
   { name: 'Java', icon: FaJava, color: '#ED8B00', level: 80 },
   { name: 'TypeScript', icon: SiTypescript, color: '#3178C6', level: 70 },
@@ -18,7 +17,6 @@ const skills = [
   { name: 'MongoDB', icon: SiMongodb, color: '#47A248', level: 70 },
   { name: 'MySQL', icon: SiMysql, color: '#4479A1', level: 75 },
   { name: 'Git', icon: FaGitAlt, color: '#F05032', level: 85 },
-  { name: 'Docker', icon: FaDocker, color: '#2496ED', level: 60 },
   { name: 'Postman', icon: SiPostman, color: '#FF6C37', level: 80 },
   { name: 'Linux', icon: SiLinux, color: '#FCC624', level: 70 },
   { name: 'Figma', icon: SiFigma, color: '#F24E1E', level: 65 },
