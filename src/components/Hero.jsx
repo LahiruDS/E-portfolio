@@ -21,7 +21,7 @@ export default function Hero() {
         >
           <div className="relative w-40 h-40 md:w-48 md:h-48 mx-auto rounded-full overflow-hidden border-4 border-primary/30 shadow-lg shadow-primary/20">
             <img
-              src="/images/Me_2.jpg"
+              src="\images\pro.jpeg"
               alt="Lahiru De Silva"
               className="w-full h-full object-cover"
               onError={(e) => {

@@ -8,7 +8,7 @@ const projects = [
 
     image: "/images/LLR.png",
 
-    description: `Lanka Land Rent (LLR) is a concept-driven web prototype...`,
+    description: `Lanka Land Rent (LLR) is an AI-assisted land rental platform that connects landowners and tenants. The platform utilizes AI algorithms to provide personalized recommendations for land rentals based on user preferences, location, and budget. It also offers features such as online booking, secure payment processing, and a user-friendly interface for seamless interactions between landowners and tenants.`,
 
     tags: [
       'MagicPatterns',
@@ -25,7 +25,7 @@ const projects = [
   },
   {
     title: 'Project 02 - Dynamic IP Address Assignment using DHCP',
-    image: '/images/PKT.jpg',
+    image: '\\images\\PKT.JPG',
     description: 'In this project, I configured a DHCP server to automatically assign IP addresses to multiple PCs in a network. Devices were connected to a switch, and DHCP settings were configured to distribute IP addresses dynamically. This eliminated the need for manual IP configuration and improved network efficiency.',
     tags: ['Cisco Packet Tracer', 'DHCP Protocol', 'Networking Concepts'],
     github: 'https://github.com',
@@ -38,11 +38,7 @@ const projects = [
 
   image: '/images/BuildMe.png',
 
-  description: `BuildMe.lk is a comprehensive smart construction platform designed to digitally connect everyone involved in the construction industry through a single online marketplace.
-
-The platform enables customers to find trusted construction professionals, hardware suppliers, architects, engineers, contractors, and other service providers while allowing verified businesses to showcase and manage their services online. It aims to simplify the construction process by providing a centralized solution for discovering services, comparing options, and managing construction-related needs.
-
-Our team developed the backend using Django and Python with PostgreSQL as the database, focusing on scalability, security, and efficient data management.`,
+  description: `BuildMe.lk is a smart construction platform that connects customers with trusted construction professionals, suppliers, architects, engineers, and contractors through a centralized online marketplace. The backend is built with Django, Python, and PostgreSQL, ensuring scalability, security, and efficient data management.`,
 
   tags: [
     'Django',
@@ -56,6 +52,27 @@ Our team developed the backend using Django and Python with PostgreSQL as the da
   github: 'https://github.com/YOUR_USERNAME/BuildMe.lk',
 
   live: '#',
+
+  color: 'from-amber-500/20 to-orange-500/20',
+},
+{
+  title: 'Project 04 - Jayasekara Legal Associates – Legal Services Website',
+
+  image: '\\images\\jla.JPG',
+
+  description: `A modern and responsive legal services website developed for Jayasekara Legal Associates using React, Vite, and CSS. The website showcases the firm's legal services, professional team, contact information, and provides an online consultation request form integrated with EmailJS.`,
+
+  tags: [
+    'React',
+    'CSS',
+    'Tailwind CSS',
+    'Vite',
+    'EmailJS'
+  ],
+
+  github: 'https://github.com/LahiruDS/LPO-2',
+
+  live: 'https://lpo-2.vercel.app/',
 
   color: 'from-amber-500/20 to-orange-500/20',
 },
