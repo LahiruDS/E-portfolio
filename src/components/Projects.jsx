@@ -76,6 +76,29 @@ const projects = [
 
   color: 'from-amber-500/20 to-orange-500/20',
 },
+{
+  title: 'Project 05 - Sri Lanka Tourism – Travel Website',
+
+  image: '\\images\\tour.JPG',
+
+  description: `A modern and responsive tourism website built with React and Tailwind CSS. This project showcases beautiful travel destinations through an elegant, user-friendly interface with a fully responsive design for desktops, tablets, and mobile devices.
+
+`,
+
+  tags: [
+    'React',
+    'CSS',
+    'Tailwind CSS',
+    'Vite',
+    'EmailJS'
+  ],
+
+  github: 'https://github.com/LahiruDS/sri-lanka-tourism/tree/master',
+
+  live: 'https://sri-lanka-tourism-three.vercel.app/',
+
+  color: 'from-amber-500/20 to-orange-500/20',
+},
 
 ]
 
