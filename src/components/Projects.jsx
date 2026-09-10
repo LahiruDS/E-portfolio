@@ -99,6 +99,31 @@ const projects = [
 
   color: 'from-amber-500/20 to-orange-500/20',
 },
+{
+  title: 'Project 06 - SAC Labs – Chemistry Learning Platform',
+
+  image: '\images\SAC.JPG',
+
+  description: `A full-stack e-learning platform for Sri Lankan chemistry students, offering HD video sessions, downloadable past papers and interactive quizzes behind a subscription. Built with React and a custom serverless API, it features JWT authentication, role-based admin access, progress tracking and a full content management panel — with paper PDFs stored directly in MongoDB via GridFS.
+
+`,
+
+  tags: [
+    'React',
+    'Vite',
+    'Node.js',
+    'MongoDB',
+    'Serverless API',
+    'JWT Auth',
+    'CSS'
+  ],
+
+  github: 'https://github.com/LahiruDS/SAC2',
+
+  live: 'https://sac-2.vercel.app/',
+
+  color: 'from-emerald-500/20 to-teal-500/20',
+},
 
 ]
 
