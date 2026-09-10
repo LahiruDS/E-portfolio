@@ -102,7 +102,7 @@ const projects = [
 {
   title: 'Project 06 - SAC Labs – Chemistry Learning Platform',
 
-  image: '\images\SAC.JPG',
+  image: '\\images\\SAC.JPG',
 
   description: `A full-stack e-learning platform for Sri Lankan chemistry students, offering HD video sessions, downloadable past papers and interactive quizzes behind a subscription. Built with React and a custom serverless API, it features JWT authentication, role-based admin access, progress tracking and a full content management panel — with paper PDFs stored directly in MongoDB via GridFS.
 
